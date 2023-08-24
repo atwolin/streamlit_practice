@@ -189,7 +189,7 @@ else:
         max_token = st.text_input('Write down # of max tokens', temp_max)  # 在網頁上要求使用者輸入max_tokens，預設為temp_max
     # 顯示目前的temperature與max_tokens
     with st.expander('Current Value'):
-        st.write(rf'temperature: {tmpr}, max_tokens: {max}')
+        st.write(rf'temperature: {tmpr}, max_tokens: {max_token}')
 
     # 讓網頁顯示送出按鈕
     submit_prompt = st.button('submit prompt')
